@@ -1,0 +1,19 @@
+- composer create-project drupal-composer/drupal-project:8.x-dev drupalkashmir --no-interaction
+- cd drupalkashmir
+- lando init
+- lando start
+- lando composer install
+- lando info
+- uncomments settings.local in settings.php
+- copy settings.local.php in sites/defaults
+- go to site
+- install
+    - use drupal8 for username, password, dbname,
+    - database for host
+- create blog content type
+    - title*
+    - body*
+    - tag => tags
+    - banner
+    - user*
+    - date*

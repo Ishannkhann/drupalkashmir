@@ -1,0 +1,19 @@
+uuid: 20d3f27f-221a-4bdb-ba0a-0d9acb0e35be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author_designation
+    - node.type.events
+id: node.events.field_author_designation
+field_name: field_author_designation
+entity_type: node
+bundle: events
+label: 'Author Designation'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

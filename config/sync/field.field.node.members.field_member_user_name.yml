@@ -1,0 +1,28 @@
+uuid: 4c4585fb-d075-473e-b38c-c01adcbd08f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_member_user_name
+    - node.type.members
+id: node.members.field_member_user_name
+field_name: field_member_user_name
+entity_type: node
+bundle: members
+label: 'Member User Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: 8224e298-5816-4b0e-9be4-635041731456
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_member_email_address
+    - node.type.members
+id: node.members.field_member_email_address
+field_name: field_member_email_address
+entity_type: node
+bundle: members
+label: 'Member Email Address'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

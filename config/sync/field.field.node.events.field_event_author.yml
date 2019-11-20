@@ -1,0 +1,28 @@
+uuid: 2551d905-a1ef-4263-a9b6-e73c040a336c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_author
+    - node.type.events
+id: node.events.field_event_author
+field_name: field_event_author
+entity_type: node
+bundle: events
+label: 'Event Author'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

@@ -1,0 +1,18 @@
+uuid: 72730494-0031-4723-9abc-a7c10a6348a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Members
+type: members
+description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, amet alias cumque adipisci perspiciatis ipsam illum nulla sequi doloribus accusantium.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

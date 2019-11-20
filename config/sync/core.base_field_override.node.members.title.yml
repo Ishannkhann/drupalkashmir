@@ -1,0 +1,18 @@
+uuid: d2454bda-1f3f-422e-9988-f07b6319fe41
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.members
+id: node.members.title
+field_name: title
+entity_type: node
+bundle: members
+label: Members
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
